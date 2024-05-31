@@ -127,25 +127,37 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="attackingstate.cpp" />
     <ClCompile Include="capsule.cpp" />
     <ClCompile Include="capsuleBuilder.cpp" />
     <ClCompile Include="capsulefacade.cpp" />
     <ClCompile Include="capsuleGroup.cpp" />
     <ClCompile Include="collisionmanager.cpp" />
+    <ClCompile Include="defendingstate.cpp" />
     <ClCompile Include="enemymanager.cpp" />
     <ClCompile Include="farcade.cpp" />
+    <ClCompile Include="followingstate.cpp" />
     <ClCompile Include="gamestatemanager.cpp" />
+    <ClCompile Include="ICompanionState.cpp" />
+    <ClCompile Include="IdleState.cpp" />
     <ClCompile Include="playermanager.cpp" />
+    <ClCompile Include="companionship.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="attackingstate.h" />
     <ClInclude Include="capsule.h" />
     <ClInclude Include="capsuleBuilder.h" />
     <ClInclude Include="capsulefacade.h" />
     <ClInclude Include="capsuleGroup.h" />
     <ClInclude Include="collisionmanager.h" />
+    <ClInclude Include="defendingstate.h" />
     <ClInclude Include="enemymanager.h" />
+    <ClInclude Include="followingstate.h" />
     <ClInclude Include="gamestatemanager.h" />
+    <ClInclude Include="ICompanionState.h" />
+    <ClInclude Include="IdleState.h" />
     <ClInclude Include="playermanager.h" />
+    <ClInclude Include="companionship.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
