@@ -127,6 +127,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="capsule.cpp" />
+    <ClCompile Include="capsuleBuilder.cpp" />
+    <ClCompile Include="capsulefacade.cpp" />
+    <ClCompile Include="capsuleGroup.cpp" />
     <ClCompile Include="collisionmanager.cpp" />
     <ClCompile Include="enemymanager.cpp" />
     <ClCompile Include="farcade.cpp" />
@@ -134,6 +138,10 @@
     <ClCompile Include="playermanager.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="capsule.h" />
+    <ClInclude Include="capsuleBuilder.h" />
+    <ClInclude Include="capsulefacade.h" />
+    <ClInclude Include="capsuleGroup.h" />
     <ClInclude Include="collisionmanager.h" />
     <ClInclude Include="enemymanager.h" />
     <ClInclude Include="gamestatemanager.h" />
